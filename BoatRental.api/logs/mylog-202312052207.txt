@@ -1,0 +1,3 @@
+2023-12-05 22:07:19.113 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7282/api/Auth/register application/json 50
+2023-12-05 22:07:19.119 +02:00 [INF] Executing endpoint 'BoatRental.api.Controllers.AuthController.Register (BoatRental.api)'
+2023-12-05 22:07:19.123 +02:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[BoatRental.core.Models.User] Register(BoatRental.core.Models.UserDto) on controller BoatRental.api.Controllers.AuthController (BoatRental.api).

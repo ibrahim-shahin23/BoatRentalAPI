@@ -1,0 +1,26 @@
+2023-12-04 08:13:14.376 +02:00 [INF] Now listening on: https://localhost:7282
+2023-12-04 08:13:14.405 +02:00 [INF] Now listening on: http://localhost:5256
+2023-12-04 08:13:14.407 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-04 08:13:14.408 +02:00 [INF] Hosting environment: Development
+2023-12-04 08:13:14.409 +02:00 [INF] Content root path: D:\.Net Projects\LastWorkingRepository\BoatRental.api\BoatRental.api
+2023-12-04 08:13:15.057 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7282/swagger/index.html - -
+2023-12-04 08:13:15.368 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7282/swagger/index.html - - - 200 - text/html;charset=utf-8 312.4664ms
+2023-12-04 08:13:15.369 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-12-04 08:13:15.379 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-12-04 08:13:15.382 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 12.8675ms
+2023-12-04 08:13:15.424 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.8143ms
+2023-12-04 08:13:15.651 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7282/swagger/v1/swagger.json - -
+2023-12-04 08:13:15.798 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7282/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 146.4540ms
+2023-12-04 08:13:19.853 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7282/api/Vehicle/GetAllVehicles - -
+2023-12-04 08:13:19.861 +02:00 [INF] Executing endpoint 'BoatRental.api.Controllers.VehicleController.GetAllVehicles (BoatRental.api)'
+2023-12-04 08:13:19.877 +02:00 [INF] Route matched with {action = "GetAllVehicles", controller = "Vehicle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllVehicles() on controller BoatRental.api.Controllers.VehicleController (BoatRental.api).
+2023-12-04 08:13:27.898 +02:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Brand], [v].[CategoryId], [v].[Color], [v].[Name], [v].[OwnerId], [v].[ReservationId], [v].[Year], [c].[Id], [c].[Description], [c].[Name]
+FROM [vehicles] AS [v]
+INNER JOIN [categories] AS [c] ON [v].[CategoryId] = [c].[Id]
+2023-12-04 08:13:27.998 +02:00 [INF] our vehicles => [{"Id":2,"Name":"car","Brand":"bike","Year":"2023-11-20T21:19:09.7500000","Color":"dark","categoryname":"hop","$type":"VehicleDto"},{"Id":3,"Name":"taxi","Brand":"BM","Year":"2023-11-20T21:19:09.7500000","Color":"dark","categoryname":"fas","$type":"VehicleDto"}]
+2023-12-04 08:13:28.018 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BoatRental.core.Dto.VehicleDto, BoatRental.core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-04 08:13:28.033 +02:00 [INF] Executed action BoatRental.api.Controllers.VehicleController.GetAllVehicles (BoatRental.api) in 8150.8688ms
+2023-12-04 08:13:28.035 +02:00 [INF] Executed endpoint 'BoatRental.api.Controllers.VehicleController.GetAllVehicles (BoatRental.api)'
+2023-12-04 08:13:28.037 +02:00 [INF] HTTP GET /api/Vehicle/GetAllVehicles responded 200 in 8178.0518 ms
+2023-12-04 08:13:28.047 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7282/api/Vehicle/GetAllVehicles - - - 200 - application/json;+charset=utf-8 8193.9028ms

@@ -1,0 +1,13 @@
+2023-12-05 21:29:26.120 +02:00 [INF] Now listening on: https://localhost:7282
+2023-12-05 21:29:26.151 +02:00 [INF] Now listening on: http://localhost:5256
+2023-12-05 21:29:26.154 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-05 21:29:26.155 +02:00 [INF] Hosting environment: Development
+2023-12-05 21:29:26.156 +02:00 [INF] Content root path: D:\.Net Projects\LastWorkingRepository\BoatRental.api\BoatRental.api
+2023-12-05 21:29:27.237 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7282/swagger/index.html - -
+2023-12-05 21:29:27.519 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7282/swagger/index.html - - - 200 - text/html;charset=utf-8 285.6589ms
+2023-12-05 21:29:27.526 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - -
+2023-12-05 21:29:27.527 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7282/_vs/browserLink - -
+2023-12-05 21:29:27.542 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 16.3943ms
+2023-12-05 21:29:27.550 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7282/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.6150ms
+2023-12-05 21:29:27.624 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7282/swagger/v1/swagger.json - -
+2023-12-05 21:29:27.743 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7282/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.9671ms
